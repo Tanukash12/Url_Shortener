@@ -1,0 +1,64 @@
+.url-shortener-form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    max-width: 90%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.shortened-url {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #6a2d4c;
+}
+
+.shortened-url a {
+    color: #a84679;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.shortened-url a:hover {
+    color: #6a2d4c;
+}

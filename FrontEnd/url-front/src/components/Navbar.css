@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #3b0d0d;
+  color: white;
+}
+
+.logo {
+  font-size: 28px;
+  /* font-weight: medirm; */
+  font-family: 'Italiana', serif;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: #782222;
+}
